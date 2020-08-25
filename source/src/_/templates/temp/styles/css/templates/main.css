@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Geometria';
+  src: url("../../fonts/Geometria-Light.eot");
+  src: local("Geometria Light"), local("Geometria-Light"), url("../../fonts/Geometria-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Geometria-Light.woff") format("woff"), url("../../fonts/Geometria-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("../../fonts/Geometria.eot");
+  src: local("Geometria"), url("../../fonts/Geometria.eot?#iefix") format("embedded-opentype"), url("../../fonts/Geometria.woff") format("woff"), url("../../fonts/Geometria.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("../../fonts/Geometria-Medium.eot");
+  src: local("Geometria Medium"), local("Geometria-Medium"), url("../../fonts/Geometria-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Geometria-Medium.woff") format("woff"), url("../../fonts/Geometria-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("../../fonts/Geometria-Bold.eot");
+  src: local("Geometria Bold"), local("Geometria-Bold"), url("../../fonts/Geometria-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Geometria-Bold.woff") format("woff"), url("../../fonts/Geometria-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
 *, :before, :after {
   padding: 0;
   margin: 0;
@@ -7,8 +35,8 @@
 
 body {
   font-size: 16px;
-  font-family: "Tahoma", sans-serif;
-  color: #000;
+  font-family: "Geometria", sans-serif;
+  color: #212121;
   background: white; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,7 +62,7 @@ li {
   list-style-image: none; }
 
 a {
-  color: #000;
+  color: #212121;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   -webkit-transition: .3s;
@@ -65,7 +93,7 @@ i {
 
 .case {
   position: relative;
-  width: 1200px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto; }

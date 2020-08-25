@@ -1,0 +1,360 @@
+.services
+		.case
+			.services__title.h2 Наши услуги для Вашего Land Rover
+			.services__text #[b.c-orange Акция!] Первый ремонт со скидкой 30% + кэшбэк от 5% до 11%
+			.services__list.row.i-top
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Диагностика
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Ремонт двигателя
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Ремонт электрики
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Кузовной ремонт
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Ремонт ходовой
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Шиномонтаж/#[br]сход-развал
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Слесарный ремонт
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Охлаждение/#[br]отопление
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Чип-тюнинг
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Ремонт трансмиссии
+					.services__body
+				.services__item
+					.services__head
+						.services__icon
+						.services__name Доп. оборудование
+					.services__body
+
+	.complex
+		.case
+			.complex__wrap.row
+				.complex__content
+					.complex__title.h2 Что входит в комплексную #[br]диагностику из 67 пунктов
+					.complex__text.text
+						ul
+							li проверка подвески;
+							li проверка тормозной системы;
+							li проверка двигателя;
+							li проверка трансмиссии;
+							li подключаем оригинальное диагностическое оборудование и проверяем все электрические системы автомобиля на наличие ошибок, неисправностей, а также необходимых обновлений программного обеспечения
+				.complex__slider.slider
+					.slider__list
+						.slider__item.bg(style="background-image: url('upload/complex-1.jpg')")
+						.slider__item.bg(style="background-image: url('upload/complex-1.jpg')")
+						.slider__item.bg(style="background-image: url('upload/complex-1.jpg')")
+			.complex__desc Где и когда выполнять рекомендации Вы решаете сами, но мы уверены, #[br]что познакомившись с нами, Вы уже не поедете в другой сервис. Мы уверены в своём профессионализме, компетентности и адекватности цен.
+			a.complex__btn.btn.--bg-orange.--md.--line(href="") Записаться со скидкой 72%
+
+	.problems
+		.case
+			.problems__title.h2.tac Наиболее распространённые проблемы, которые выявляются на диагностике Land Rover
+			.problems__subtitle.h3 Информация, собранная механиками с 10-летним опытом
+			.problems__list
+				.problems__item
+					.problems__head.row
+						.problems__name Форсунка загрязнилась пылью и стружкой
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item(style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(href="") Записаться на диагностику
+				.problems__item
+					.problems__head.row
+						.problems__name Карданный вал погнут
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item(style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(href="") Записаться на диагностику
+				.problems__item
+					.problems__head.row
+						.problems__name Популярная проблема #3
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item(style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(href="") Записаться на диагностику
+				.problems__item
+					.problems__head.row
+						.problems__name Популярная проблема #4
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item(style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(href="") Записаться на диагностику
+				.problems__item
+					.problems__head.row
+						.problems__name Популярная проблема #5
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item(style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item(style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(href="") Записаться на диагностику
+
+
+
+	.guarantee
+		.case
+			.guarantee__wrap.row
+				.guarantee__content
+					.guarantee__title.h2 Личная гарантия собственника
+					.guarantee__quote Текст обращения собственника, рассказывающий про качество, ответственность и опыт. Про то, что каждый клиент может напрямую обратиться по личному номеру, чтобы разрешить какую-либо возникшую ситуацию.
+					.guarantee__contacts
+						.guarantee__call.row.i-mid
+							.guarantee__call-title Вот мой телефон:  
+							.guarantee__call-phone #[a(href="tel:+79991233377") +7 (999) 123-33-77]
+						.guarantee__socials.socials
+							ul
+					.guarantee__persona.persona
+						.persona__signature
+						.persona__text
+							.persona__name Роман Пеньков
+							.persona__desc Основатель и владелец сервиса
+				.guarantee__img
+					+img('ceo.png')
+
+	.diagnostics.bg(style="background-image: url('upload/bgs/bg-diagnostics.jpg')")
+		.case
+			.diagnostics__title.h2 Комплексная диагностика по 67 пунктам за #[b.price-old 3600] #[b.c-orange 1000 рублей]
+			.diagnostics__subtitle.h4 По окончанию диагностики Вы получите заказ-наряд с рекомендациями и пояснениями о их критичности. Акция действует при первом посещении.
+			.diagnostics__form.form.--line
+				.form__item.form__input.input.--bb-white.--white.--icon.--md.--name
+					.input__wrap
+						label.input__icon=icon.user
+						label.input__title Ваше имя
+						input.input__area(type="text" name="")
+				.form__item.form__input.input.--bb-white.--white.--icon.--md.--phone
+					.input__wrap
+						label.input__icon=icon.phone
+						label.input__title Номер телефона
+						input.input__area(type="text" name="")
+				button.form__item.form__btn.btn.--bg-orange.--md.--sm Оставить заявку
+				.form__policy Оставляя заявку, Вы соглашаетесь с #[a(href="" target="_blank") Политикой конфиденциальности]
+
+	.advantages
+		.case
+			.advantages__list
+				.advantages__item
+					.advantages__content
+						.advantages__title.h2 Гарантия от 1 года #[br]на запчасти и #[br]выполненные работы
+						.advantages__text.text
+							p Мы уверены в качестве наших работ и запчастей. Поэтому смело даём гарантию от 1 года.
+							p Любой недостаток в работе или запчасти в этот период будет выявлен и устранен бесплатно.
+					.advantages__img-wrap
+						.advantages__img
+							+img('engine.png')
+						.advantages__icon
+							+img('icons/security.svg')
+
+
+				.advantages__item
+					.advantages__content
+						.advantages__title.h2 Оригинальные запчасти напрямую из Европы
+						.advantages__text.text
+							ul
+								li Используем только оригинальные запасные части
+								li Избегаем наценок представительства и дилеров
+								li За счёт этого держим низкие цены
+								li Для подстраховки заключены договора на оптовую поставку со всеми московскими официальными дилерами
+					.advantages__img-wrap
+						.advantages__img
+							+img('land-rover-2.png')
+						.advantages__icon
+							+img('map.png')
+
+	.share.bg(style="background-image: url('upload/bgs/bg-share.jpg')")
+		.case
+			.share__title.h2 Получите #[b.c-orange скидку 30%] на первый ремонт
+			.share__subtitle.h3 Пройдите опрос: ответьте на 3 вопроса и получите скидку 30% на первый ремонт + кэшбэк от 5% до 11%
+			a.share__btn.btn.--bg-orange.--md(href="") Пройти опрос
+
+	.office
+		.case
+			.office__wrap.row
+				.office__content
+					.office__title.h2 Комфортная зона ожидания
+					.office__text.text
+						p Мы вложили душу в ремонт зоны приёмки и ожидания автомобиля. Наши клиенты — наши гости. Мы с удовольствием угостим вас свежесваренным кофе, чаем или холодными напитками.
+						p Мы готовы утверждать, что у нас самые комфортные условия ожидания. Потому что делали мы их как для себя!
+					.office__desc
+						.office__desc-list.row
+							.office__desc-item
+								.office__desc-icon
+									+img('icons/coffee.svg')
+								.office__desc-title Зона ожидания
+							.office__desc-item
+								.office__desc-icon
+									+img('icons/laptop-wifi.svg')
+								.office__desc-title Рабочие места
+							.office__desc-item
+								.office__desc-icon
+									+img('icons/pacifier.svg')
+								.office__desc-title Детский уголок
+				.office__slider.slider
+					.slider__list
+						.slider__item.bg
+							.slider__img(style="background-image: url('upload/office-1.jpg')")
+						.slider__item.bg
+							.slider__img(style="background-image: url('upload/office-1.jpg')")
+						.slider__item.bg
+							.slider__img(style="background-image: url('upload/office-1.jpg')")
+
+	.team
+		.case
+			.team__title.h2 Команда экспертов по работе с Land Rover
+			.team__list
+				- 
+					var teamItem = [
+						'team-1.jpg',
+						'Роман Брэдеску'
+						'Мастер-приёмщик'
+					]
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+
+				
+
+	.photos
+		.case
+			.photos__title.h2 Добро пожаловать в сервис Романа Пенькова
+		.photos__list
+			.photos__item.bg(style="background-image: url('upload/photo-1.jpg')")
+			.photos__item.bg(style="background-image: url('upload/photo-2.jpg')")
+			.photos__item.bg(style="background-image: url('upload/photo-3.jpg')")
+
+	.recommend.bg(style="background-image: url('upload/bgs/bg-recommend.jpg')")
+		.case
+			.recommend__wrap.row
+				.recommend__content
+					.recommend__title.h2 Получите рекомендации по решению проблемы. #[b.c-orange Бесплатно!]
+					.recommend__subtitle.h3 За время работы мы видели множество случаев и зачастую можем дать полезные рекомендации даже по телефону.
+					.recommend__form.form
+						.form__item.form__input.input.--bb-white.--white.--icon.--md.--name
+							.input__wrap
+								label.input__icon=icon.user
+								label.input__title Ваше имя
+								input.input__area(type="text" name="")
+						.form__item.form__input.input.--bb-white.--white.--icon.--md.--phone
+							.input__wrap
+								label.input__icon=icon.phone
+								label.input__title Номер телефона
+								input.input__area(type="text" name="")
+						button.form__item.form__btn.btn.--bg-orange.--md.--sm Оставить заявку
+						.form__policy Оставляя заявку, Вы соглашаетесь с #[a(href="" target="_blank") Политикой конфиденциальности]
+				.recommend__master.master
+					.master__text
+						.master__name Андрей Свидерский
+						.master__desc Мастер-приёмщик, #[br]10 лет опыта работы с Land Rover
+					.master__img
+						+img('master.png')
+
+	.contacts
+		.contacts__wrap
+			.contacts__title.h2 Контакты
+			.contacts__text
+				p Телефон: #[strong #[a(href="tel:+74952412989") +7(495)241-29-89]]
+				p Email: #[strong #[a(hre="mailto:info@lr-premium.ru") info@lr-premium.ru]]
+				p Адрес: #[strong Москва, Киевская, 14]
+				p Часы работы: #[strong Пн-Пт – 9:00-20:00]
+			.contacts__socials.socials.--lg
+		.contacts__map.map
+			.map-wrap#map
+
+	.we.bg(style="background-image: url('upload/bgs/bg-hello.png')")
+		.case
+			.we__wrap.row
+				.we__content
+					.we__title.h1 История основания
+					.we__text Немного истории основания сервиса, рассказать буквально в 2 абзацах о том что почему и как, какие ценности, почему они такие и почему это самый лучший сервис ленд ровер
+					.we__counts.counts
+						.counts__list.row
+							.counts__item
+								.counts__count 2014
+								.counts__text год основания
+							.counts__item
+								.counts__count 10 #[span лет]
+								.counts__text средний опыт работы механиков
+							.counts__item
+								.counts__count 9057
+								.counts__text клиентов обслужено
+							.counts__item
+								.counts__count 30
+								.counts__text человек в команде
+				.we__img
+					+img('we.png')

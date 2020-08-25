@@ -1,1 +1,69 @@
 footer.footer
+	.case
+		.footer__wrap.row
+			a.footer__logo.logo(href="")
+				+img('logo-black.png')
+			.footer__desc Специализированный сервис Land Rover
+			.footer__navs.row
+				ul
+					li
+						a(href="") Главная
+					li
+						a(href="") О компании
+					li
+						a(href="") Услуги
+					li
+						a(href="") Модели
+				ul
+					li
+						a(href="") Прайс-лист
+					li
+						a(href="") Акции
+					li
+						a(href="") Отзывы
+					li
+						a(href="") Контакты
+			.footer__call
+				.footer__phone #[a(href="tel:+74952412989") +7 (495) 241-29-89]
+				.footer__callback #[a(href="") Заказать звонок]
+			.footer__socials.socials
+			.footer__contacts.p-contacts
+			.footer__copy © «Roman PenkovService», 2020
+
+
+.popup.--sm#popup-callback
+	.popup__wrap
+		.popup__title.h4 
+		.popup__form
+			.popup__input.input.--bb-white.--white.--icon.--md.--name
+				.input__wrap
+					label.input__icon= icon.user
+					label.input__title Ваше имя
+					input.input__area(type="text" name="")
+			.popup__input.input.--bb-white.--white.--icon.--md.--phone
+				.input__wrap
+					label.input__icon= icon.phone
+					label.input__title Номер телефона
+					input.input__area(type="text" name="")
+			button.popup__btn.btn.--bg-orange.--md.--sm Оставить заявку
+
+.popup.--sm#popup-order
+	.popup__wrap
+		.popup__title.h4
+		.popup__form
+			.popup__input.input.--bb-white.--white.--icon.--md.--name
+				.input__wrap
+					label.input__icon= icon.user
+					label.input__title Ваше имя
+					input.input__area(type="text" name="")
+			.popup__input.input.--bb-white.--white.--icon.--md.--phone
+				.input__wrap
+					label.input__icon= icon.phone
+					label.input__title Номер телефона
+					input.input__area(type="text" name="")
+			button.popup__btn.btn.--bg-orange.--md.--sm Оставить заявку
+
+.popup.--sm#popup-thanks
+	.popup__wrap
+		.popup__title.h4 Спасибо!
+		.popup__text Ваша заявка успешно отправлена.
