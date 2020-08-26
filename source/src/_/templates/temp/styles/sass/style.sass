@@ -1,1 +1,315 @@
 @import templates/main
+
+a
+	&[href^="tel"]
+		cursor: default
+		border-bottom: none
+
+.btn
+	z-index: 1
+	position: relative
+	display: flex
+	align-items: center
+	justify-content: center
+	text-align: center
+	cursor: pointer
+	border-radius: 10px
+	font-size: $font-size
+	font-family: $font-family
+	border-bottom: none
+	&:before
+		content: ''
+		z-index: -1
+		opacity: 0
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		transition: .3s
+		border-radius: 10px
+	&.--bg-orange
+		color: #fff
+		background-image: linear-gradient(to right, #ff9701 0%, #ff6702 100%)
+		border-bottom: 3px solid #c95900
+		&:before
+			background-image: linear-gradient(to left, #ff9701 0%, #ff6702 100%)
+		&:hover
+			&:before
+				opacity: 1
+	&.--md
+		font-size: 16px
+		height: 70px
+		font-weight: 700
+		
+
+.img
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+
+.logo
+	width: 205px
+	font-size: 0
+	border-bottom: none
+
+.header
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+
+
+.panel
+	color: #fff
+	padding-top: 40px
+	padding-bottom: 45px
+	&__wrap
+		
+	&__desc
+		width: 180px
+		line-height: 22px
+		margin-left: 55px
+	&__inner
+		width: calc(100% - 440px)
+		padding-left: 80px
+		justify-content: space-between
+	&__phone
+		a
+			font-size: 20px
+			line-height: 20px
+			font-weight: 700
+			color: #fff
+	&__call
+		text-align: right
+	&__phone
+		margin-bottom: 7px
+		
+	&__callback
+		font-weight: 700
+		a
+			color: #fff
+			border-width: 2px
+			padding-bottom: 3px
+			border-color: $color-green
+			&:hover
+				color: $color-green
+				border-color: transparent
+		
+.p-contacts
+	width: 215px
+	&__item
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		margin-bottom: 7px
+		&:last-of-type
+			margin-bottom: 0
+	&__icon
+		width: 14px
+		height: 14px
+	&__text
+		padding-left: 8px
+		width: calc(100% - 14px)
+
+.socials
+	li
+		margin-right: 5px
+		&:last-of-type
+			margin-right: 0
+	a
+		display: block
+		width: 33px
+		height: 33px
+		border-bottom: none
+		font-size: 0
+		&:hover
+			transform: scale(.9)
+
+
+.nav
+	&__list
+		> ul
+			justify-content: center
+			> li
+				margin-right: 95px
+				position: relative
+				&:last-of-type
+					margin-right: 0
+				&:before
+					content: ''
+					position: absolute
+					bottom: -40px
+					left: 0
+					right: 0
+					height: 40px
+				&:hover
+					> ul
+						opacity: 1
+						visibility: visible
+						transform: translateY(0px)
+					> a
+						&:after
+							transform: rotate(180deg)
+
+				> a
+					font-weight: 700
+
+				> ul
+					opacity: 0
+					> li
+						&:hover
+							> ul
+								opacity: 1
+								visibility: visible
+							> a
+								background-color: $color-green
+								.i
+									path
+										fill: #fff
+								.t
+									color: #fff
+									border-color: transparent
+						> a
+							padding: 6.5px 10px
+							&:hover
+								background-color: $color-green
+						> ul
+							> li
+								&:hover
+									> a
+										background-color: $color-green
+										.t
+											color: #fff
+											border-color: transparent
+		li
+			margin-bottom: 0
+			&.--subnav
+				> a
+					&:after
+						content: ''
+						width: 7px
+						height: 7px
+						position: relative
+						top: 1px
+						margin-left: 6px
+						transition: .3s
+						background: url('../../imgs/chevon-down-white.svg') no-repeat center
+				ul
+					opacity: 0
+					z-index: 10
+					position: absolute
+					top: 100%
+					left: 0
+					margin-top: 25px
+					flex-direction: column
+					background-color: #fff
+					justify-content: flex-start
+					transition: .3s
+					visibility: hidden
+					a
+						height: 40px
+				> ul
+					width: 320px
+					margin-left: -70px
+					> li
+						> ul
+							position: absolute
+							left: 100%
+							top: 0
+							width: 300px
+							margin-top: 0
+							a
+								padding: 10px
+			&.--icon
+				.i
+					width: 27px
+					height: 27px
+					margin-right: 12px
+					path
+						fill: $color-green
+			&.--share
+				> a
+					color: #f05000
+					&:before
+						content: ''
+						width: 16px
+						height: 15px
+						position: relative
+						top: 0
+						left: 0
+						margin-right: 6px
+						background: url('../../imgs/star.svg') no-repeat center
+		a
+			display: flex
+			align-items: center
+			color: #fff
+			border-bottom: none
+			span
+				display: inline-block
+				transition: .3s
+			path
+				transition: .3s
+			.t
+				display: inline
+				max-width: calc(100% - 40px)
+				color: $color-black
+				padding: 0 
+				border-bottom: 1px solid $color-black
+
+.h1
+	font-size: 52px
+	line-height: 56px
+	font-weight: 500
+
+.h2
+	font-size: 40px
+	line-height: 52px
+	font-weight: 500
+
+.h3
+	font-size: 32px
+	line-height: 40px
+
+
+
+.hello
+	color: #fff
+	padding-top: 250px
+	min-height: 830px
+	background-position: center top
+	&__content
+		z-index: 1
+		position: relative
+		max-width: 800px
+	&__title
+		margin-bottom: 5px
+	&__subtitle
+		margin-bottom: 40px
+	&__img
+		position: absolute
+		top: -15px
+		right: -570px
+	&__btn
+		margin-top: 60px
+
+.text
+	font-size: 19px
+	ul
+		flex-direction: column
+	li
+		position: relative
+		padding-left: 40px
+		margin-bottom: 24px
+		&:last-of-type
+			margin-bottom: 0
+		&:before
+			content: ''
+			width: 26px
+			height: 26px
+			position: absolute
+			top: -1px
+			left: 0
+			background: url('../../imgs/check-circle.svg') no-repeat
+
+
