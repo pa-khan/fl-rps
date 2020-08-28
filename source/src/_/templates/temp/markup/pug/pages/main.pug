@@ -3,7 +3,7 @@ append top
 	- var title = "Главная"
 
 append content
-	.hello.bg(style="background-image: url('upload/bgs/bg-hello.png')")
+	.hello(style="background-image: url('upload/bgs/bg-hello.png')")
 		.case
 			.hello__wrap
 				.hello__content
@@ -14,69 +14,388 @@ append content
 							li Гарантия от 1 года на запчасти и работы
 							li Механики с опытом от 10 лет
 							li Личная ответственность собственника
-					a.hello__btn.btn.--bg-orange.--md() Записаться на диагностику
+					a.hello__btn.btn.--bg-orange.--md().--line Записаться на диагностику
 				.hello__img
 					+img('land-rover-1.png')
 	.services
 		.case
 			.services__title.h2 Наши услуги для Вашего Land Rover
-			.services__text #[b.c-orange Акция!] Первый ремонт со скидкой 30% + кэшбэк от 5% до 11%
+			.services__text.h4 #[b.c-orange Акция!] Первый ремонт со скидкой 30% + кэшбэк от 5% до 11%
 			.services__list.row.i-top
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/car.svg')
 						.services__name Диагностика
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/engine.svg')
 						.services__name Ремонт двигателя
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/headlight.svg')
 						.services__name Ремонт электрики
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/chassis.svg')
 						.services__name Кузовной ремонт
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/transmission.svg')
 						.services__name Ремонт ходовой
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/tire.svg')
 						.services__name Шиномонтаж/#[br]сход-развал
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/drilling-machine.svg')
 						.services__name Слесарный ремонт
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/air-conditioning.svg')
 						.services__name Охлаждение/#[br]отопление
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/laptop.svg')
 						.services__name Чип-тюнинг
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/gearbox.svg')
 						.services__name Ремонт трансмиссии
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 				.services__item
 					.services__head
 						.services__icon
+							+img('icons/gearshift.svg')
 						.services__name Доп. оборудование
 					.services__body
+						ul
+							li
+								a(href="")
+									span.t Диагностика Webasto
+							li
+								a(href="")
+									span.t Комплексная диагностика
+							li
+								a(href="")
+									span.t Диагностика АКПП
+							li
+								a(href="")
+									span.t Диагностика электрики
+							li
+								a(href="")
+									span.t Диагностика двигателя
+							li
+								a(href="")
+									span.t Диагностика подвески
+							li
+								a(href="")
+									span.t Диагностика кондиционера
+							li
+								a(href="")
+									span.t Диагностика перед покупкой
+							li
+								a(href="")
+									span.t Компьютерная диагностика
 
 	.complex
 		.case
@@ -182,14 +501,15 @@ append content
 				.guarantee__content
 					.guarantee__title.h2 Личная гарантия собственника
 					.guarantee__quote Текст обращения собственника, рассказывающий про качество, ответственность и опыт. Про то, что каждый клиент может напрямую обратиться по личному номеру, чтобы разрешить какую-либо возникшую ситуацию.
-					.guarantee__contacts
+					.guarantee__contacts.row.i-mid
 						.guarantee__call.row.i-mid
 							.guarantee__call-title Вот мой телефон:  
 							.guarantee__call-phone #[a(href="tel:+79991233377") +7 (999) 123-33-77]
-						.guarantee__socials.socials
-							ul
-					.guarantee__persona.persona
+
+						+socials('guarantee__socials socials')
+					.guarantee__persona.persona.row
 						.persona__signature
+							+img('signature.png')
 						.persona__text
 							.persona__name Роман Пеньков
 							.persona__desc Основатель и владелец сервиса
@@ -200,19 +520,19 @@ append content
 		.case
 			.diagnostics__title.h2 Комплексная диагностика по 67 пунктам за #[b.price-old 3600] #[b.c-orange 1000 рублей]
 			.diagnostics__subtitle.h4 По окончанию диагностики Вы получите заказ-наряд с рекомендациями и пояснениями о их критичности. Акция действует при первом посещении.
-			.diagnostics__form.form.--line
-				.form__item.form__input.input.--bb-white.--white.--icon.--md.--name
+			.diagnostics__form.form.row.between
+				.form__item.form__input.input.--md.--bb-white.--white.--icon.--name.--w-md
 					.input__wrap
-						label.input__icon=icon.user
+						label.input__icon!=icon.user
 						label.input__title Ваше имя
 						input.input__area(type="text" name="")
-				.form__item.form__input.input.--bb-white.--white.--icon.--md.--phone
+				.form__item.form__input.input.--md.--bb-white.--white.--icon.--phone.--w-md
 					.input__wrap
-						label.input__icon=icon.phone
+						label.input__icon!=icon.phone
 						label.input__title Номер телефона
 						input.input__area(type="text" name="")
-				button.form__item.form__btn.btn.--bg-orange.--md.--sm Оставить заявку
-				.form__policy Оставляя заявку, Вы соглашаетесь с #[a(href="" target="_blank") Политикой конфиденциальности]
+				button.form__item.form__btn.btn.--bg-orange.--md.--w-sm Оставить заявку
+				.form__item.form__policy.tac.--white Оставляя заявку, Вы соглашаетесь с #[a(href="" target="_blank") Политикой конфиденциальности]
 
 	.advantages
 		.case
@@ -223,7 +543,7 @@ append content
 						.advantages__text.text
 							p Мы уверены в качестве наших работ и запчастей. Поэтому смело даём гарантию от 1 года.
 							p Любой недостаток в работе или запчасти в этот период будет выявлен и устранен бесплатно.
-					.advantages__img-wrap
+					.advantages__img-wrap.--engine
 						.advantages__img
 							+img('engine.png')
 						.advantages__icon
@@ -239,7 +559,7 @@ append content
 								li Избегаем наценок представительства и дилеров
 								li За счёт этого держим низкие цены
 								li Для подстраховки заключены договора на оптовую поставку со всеми московскими официальными дилерами
-					.advantages__img-wrap
+					.advantages__img-wrap.--car
 						.advantages__img
 							+img('land-rover-2.png')
 						.advantages__icon
@@ -253,7 +573,7 @@ append content
 
 	.office
 		.case
-			.office__wrap.row
+			.office__wrap.row.i-top
 				.office__content
 					.office__title.h2 Комфортная зона ожидания
 					.office__text.text
@@ -275,12 +595,9 @@ append content
 								.office__desc-title Детский уголок
 				.office__slider.slider
 					.slider__list
-						.slider__item.bg
-							.slider__img(style="background-image: url('upload/office-1.jpg')")
-						.slider__item.bg
-							.slider__img(style="background-image: url('upload/office-1.jpg')")
-						.slider__item.bg
-							.slider__img(style="background-image: url('upload/office-1.jpg')")
+						.slider__item.bg(style="background-image: url('upload/office-1.jpg')")
+						.slider__item.bg(style="background-image: url('upload/office-1.jpg')")
+						.slider__item.bg(style="background-image: url('upload/office-1.jpg')")
 
 	.team
 		.case
@@ -326,12 +643,12 @@ append content
 					.recommend__form.form
 						.form__item.form__input.input.--bb-white.--white.--icon.--md.--name
 							.input__wrap
-								label.input__icon=icon.user
+								label.input__icon!=icon.user
 								label.input__title Ваше имя
 								input.input__area(type="text" name="")
 						.form__item.form__input.input.--bb-white.--white.--icon.--md.--phone
 							.input__wrap
-								label.input__icon=icon.phone
+								label.input__icon!=icon.phone
 								label.input__title Номер телефона
 								input.input__area(type="text" name="")
 						button.form__item.form__btn.btn.--bg-orange.--md.--sm Оставить заявку
