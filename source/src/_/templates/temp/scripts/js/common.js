@@ -107,5 +107,116 @@ $(document).ready(function() {
 
 	$('.slider__list').slick({
 		fade: true
+	});
+
+	$('.team__list').slick({
+		slidesToScroll: 4,
+		slidesToShow: 4,
+		dots: true,
+			responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToScroll: 2,
+					slidesToShow: 2,
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					dots: false,
+					slidesToScroll: 1,
+					slidesToShow: 1,
+				}
+			}
+			]
+	});
+
+	$('.photos__list').slick({
+		slidesToScroll: 1,
+		variableWidth: true,
+		arrows: false,
+		rows: 2,
+		dots: true,
+		// responsive: [
+		// 	{
+		// 		breakpoint: 767,
+		// 		settings: {
+		// 			arrows: true
+		// 		}
+		// 	},
+		// ]
+	});
+
+	
+	function toggler(block) {
+		var body = block.find('.problems__body');
+		if(block.hasClass(cls.toggle)){
+			body.slideDown(300);
+		} else{
+			body.slideUp(300);
+		}
+	}
+
+	$('.problems__item').each(function () {
+		toggler($(this));
+		var imgs = $(this).find('.imgs__list');
+		imgs.slick({
+			slidesToScroll: 1,
+			slidesToShow: 3,
+			arrows: false,
+			responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToScroll: 1,
+					slidesToShow: 1,
+				}
+			}
+			]
+		});
+
 	})
+	
+
+	$('.problems__head').on('click', function () {
+		var item = $(this).parents('.problems__item'),
+				imgs = item.find('.imgs__list');
+		item.toggleClass(cls.toggle);
+		toggler(item);
+		imgs.slick('reinit');
+	});
+
+
+	var hum = $('.hum'),
+			nav = $('.header__inner'),
+			inner = $('html, body'),
+			innerClass = '--scroll-none'
+
+	function toggleNav() {
+		hum.toggleClass(cls.toggle);
+		nav.toggleClass(cls.toggle);
+		inner.toggleClass(innerClass);
+	}
+
+	hum.on('click', function () {
+		toggleNav();
+	});
+
+	$('.nav__list li.--subnav a').on('click', function () {
+		if($(window).width() < 768){
+			event.preventDefault();
+			var ul = $(this).siblings('ul');
+			if (ul.length == 1) {
+				ul.slideToggle(300);
+			}
+		}
+	});
+
+	$(window).on('resize', function () {
+		if($(window).width() > 767){
+			$('.nav__list li.--subnav ul').removeAttr('style');
+		}
+	})
+
 });

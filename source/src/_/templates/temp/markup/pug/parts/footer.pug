@@ -25,43 +25,51 @@ footer.footer
 						a(href="") Контакты
 			.footer__call
 				.footer__phone #[a(href="tel:+74952412989") +7 (495) 241-29-89]
-				.footer__callback #[a(href="") Заказать звонок]
-			.footer__socials.socials
+				.footer__callback #[a(data-fancybox data-src="#popup-callback" href="javascript:;") Заказать звонок]
+			+socials('footer__socials socials')
 			.footer__contacts.p-contacts
+				.p-contacts__item
+					.p-contacts__icon
+						+img('icons/location-pin.svg')
+					.p-contacts__text Москва, ул. Киевская 14
+				.p-contacts__item
+					.p-contacts__icon
+						+img('icons/clock.svg')
+					.p-contacts__text Пн-Пт, 09:00-21:00
 			.footer__copy © «Roman PenkovService», 2020
 
 
 .popup.--sm#popup-callback
 	.popup__wrap
-		.popup__title.h4 
+		.popup__title.h4 Заказать обратный звонок
 		.popup__form
-			.popup__input.input.--bb-white.--white.--icon.--md.--name
+			.popup__input.input.--bb-black.--black.--icon.--md.--name
 				.input__wrap
-					label.input__icon= icon.user
+					label.input__icon!= icon.userBlack
 					label.input__title Ваше имя
 					input.input__area(type="text" name="")
-			.popup__input.input.--bb-white.--white.--icon.--md.--phone
+			.popup__input.input.--bb-black.--black.--icon.--md.--phone
 				.input__wrap
-					label.input__icon= icon.phone
+					label.input__icon!= icon.phoneBlack
 					label.input__title Номер телефона
 					input.input__area(type="text" name="")
-			button.popup__btn.btn.--bg-orange.--md.--sm Оставить заявку
+			button.popup__btn.btn.--bg-orange.--md.--sm Отправить
 
 .popup.--sm#popup-order
 	.popup__wrap
-		.popup__title.h4
+		.popup__title.h4 Оставить заявку
 		.popup__form
-			.popup__input.input.--bb-white.--white.--icon.--md.--name
+			.popup__input.input.--bb-black.--black.--icon.--md.--name
 				.input__wrap
-					label.input__icon= icon.user
+					label.input__icon!= icon.userBlack
 					label.input__title Ваше имя
 					input.input__area(type="text" name="")
-			.popup__input.input.--bb-white.--white.--icon.--md.--phone
+			.popup__input.input.--bb-black.--black.--icon.--md.--phone
 				.input__wrap
-					label.input__icon= icon.phone
+					label.input__icon!= icon.phoneBlack
 					label.input__title Номер телефона
 					input.input__area(type="text" name="")
-			button.popup__btn.btn.--bg-orange.--md.--sm Оставить заявку
+			button.popup__btn.btn.--bg-orange.--md.--sm Отправить
 
 .popup.--sm#popup-thanks
 	.popup__wrap

@@ -1,24 +1,33 @@
 header.header
-	.header__panel.panel
-		.case
-			.panel__wrap.row.i-mid
-				a.panel__logo.logo(href="")
-					+img('logo-white.png')
+	.header__mobile
+		.case.row.i-mid
+			a.header__logo.logo(href="")
+				+img('logo-black.png')
+			.header__hum.hum
+				span
+				span
+				span
+	.header__inner
+		.header__panel.panel
+			.case
+				.panel__wrap.row.i-mid
+					a.panel__logo.logo(href="")
+						+img('logo-white.png')
 
-				.panel__desc Специализированный сервис Land Rover
-				.panel__inner.row.i-mid
-					.panel__contacts.p-contacts
-						.p-contacts__item
-							.p-contacts__icon
-								+img('icons/location-pin.svg')
-							.p-contacts__text Москва, ул. Киевская 14
-						.p-contacts__item
-							.p-contacts__icon
-								+img('icons/clock.svg')
-							.p-contacts__text Пн-Пт, 09:00-21:00
-					.panel__call
-						.panel__phone #[a(href="tel:+74952412989") +7 (495) 241-29-89]
-						.panel__callback #[a(href="") Заказать звонок]
-					+socials('panel__socials socials')
-						
-	include nav
+					.panel__desc Специализированный сервис Land Rover
+					.panel__inner.row.i-mid
+						.panel__contacts.p-contacts
+							.p-contacts__item
+								.p-contacts__icon
+									+img('icons/location-pin.svg')
+								.p-contacts__text Москва, ул. Киевская 14
+							.p-contacts__item
+								.p-contacts__icon
+									+img('icons/clock.svg')
+								.p-contacts__text Пн-Пт, 09:00-21:00
+						.panel__call
+							.panel__phone #[a(href="tel:+74952412989") +7 (495) 241-29-89]
+							.panel__callback #[a(data-fancybox data-src="#popup-callback" href="javascript:;") Заказать звонок]
+						+socials('panel__socials socials')
+							
+		include nav
